@@ -25,6 +25,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Kelasnya anak ngoding" />
+        android:text="Kelasnya anak-anak pada ngoding" />
 
 </LinearLayout>
