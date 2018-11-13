@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kelas Koding</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Admob ID -->
+    <string name="banner_ad_unit_id">ca-app-pub-2579754990350876/5557071144</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-2579754990350876/7033804340</string>
+    <string name="title_activity_details">DetailsActivity</string>
+</resources>

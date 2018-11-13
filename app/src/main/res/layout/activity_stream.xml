@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.lazday.stream.StreamActivity"
+    android:background="#000"
+    android:gravity="center">
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorText"
+        android:gravity="center"/>
+
+    <ProgressBar
+        android:visibility="visible"
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

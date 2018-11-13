@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/text_episode_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0dp"/>
+    <TextView
+        android:id="@+id/text_book_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0dp"/>
+
+    <TextView
+        android:id="@+id/text_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0dp"/>
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Masalah Perasaan"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/text_genres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text_title"
+        android:textSize="10dp"
+        android:text="Genres, "/>
+    <TextView
+        android:id="@+id/text_created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text_title"
+        android:layout_toRightOf="@+id/text_category"
+        android:textSize="10dp"
+        android:text="10, sept'16 10:00 PM"/>
+
+    <TextView
+        android:id="@+id/text_views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text_title"
+        android:text="233 vies"
+        android:textSize="10dp"/>
+
+</RelativeLayout>
